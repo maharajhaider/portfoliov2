@@ -31,7 +31,7 @@ const Hero = () => {
                 "I am a 3rd year CS 👨‍🎓 at UBC",
                 "Active in 🚴‍♀️🏀",
                 "Currently interested in cloud ☁️",
-                "Currently SWE sIntern at Rivian 🚗",
+                "Currently SWE Intern at Rivian 🚗",
               ],
               autoStart: true,
               loop: true,
