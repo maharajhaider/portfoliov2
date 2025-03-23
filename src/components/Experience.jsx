@@ -2,6 +2,27 @@ import { useState } from "react";
 
 const work_exp = [
   {
+    company: "Amazon",
+    thumbnail: "images/icons/jobs/amazon.png",
+    role: "Incoming Software Developer Intern",
+    bullets: [
+  
+    ],
+    date: "May 2025 - Aug 2025",
+  },
+  {
+    company: "Interac Corp",
+    thumbnail: "images/icons/jobs/interac.png",
+    role: "Software Developer Intern - Backend",
+    bullets: [
+      "Developed and maintained backend services for Canada’s largest real-time money transfer network using Java Spring Boot, ensuring high performance and scalability.",
+      "Utilized PostgreSQL to design, optimize, and manage relational databases, ensuring data integrity and efficient querying for mission-critical applications.",
+      "Deployed and managed containerized applications using Kubernetes, streamlining deployment pipelines",
+      "Implemented messaging solutions using Apache ActiveMQ to enable communication and improve system decoupling for scalable, distributed services"
+    ],
+    date: "Jan 2025 - Apr 2025",
+  },
+  {
     company: "Rivian",
     thumbnail: "images/icons/jobs/rivian.png",
     role: "Software Engineer Intern",
@@ -15,7 +36,7 @@ const work_exp = [
   },
   {
     company: "Atimi Software",
-    thumbnail: "images/icons/jobs/atimi.png",
+    thumbnail: "images/icons/jobs/atimi.svg",
     role: "Software Developer Intern",
     bullets: [
       "Developed CLI applications to automate internal processes using Java, to increase developer productivity",

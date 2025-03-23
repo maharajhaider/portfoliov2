@@ -28,10 +28,10 @@ const Hero = () => {
           <TypeWriter
             options={{
               strings: [
-                "I am a 3rd year CS 👨‍🎓 at UBC",
+                "I am a 4th year CS 👨‍🎓 at UBC",
                 "Active in 🚴‍♀️🏀",
                 "Currently interested in cloud ☁️",
-                "Currently SWE Intern at Rivian 🚗",
+                "SWE Intern at Interac Corp",
               ],
               autoStart: true,
               loop: true,
@@ -41,7 +41,7 @@ const Hero = () => {
         </div>
         <section className="flex flex-col md:flex-row gap-4 font-black">
           <a
-            href="MaharajHaiderOct24.pdf"
+            href="MaharajHaiderData.pdf"
             rel="noopener noreferrer"
             target="_blank"
           >
