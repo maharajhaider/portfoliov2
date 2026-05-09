@@ -4,9 +4,11 @@ const work_exp = [
   {
     company: "Amazon",
     thumbnail: "images/icons/jobs/amazon.png",
-    role: "Incoming Software Developer Intern",
+    role: "Software Developer Intern",
     bullets: [
-  
+      "Engineered a CloudFormation static analysis engine to extract infrastructure topology and component dependencies, enabling graph-based reasoning for AI agents",
+      "Developed a production MCP server to stream architectural metadata to AWS DevOps agents, accelerating automated root-cause analysis of complex cloud incidents",
+      "Contributed to AWS CDK open-source project by updating EC2 constructs for dual-stack VPCs, streamlining complex IPv4/IPv6 network configurations for the global developer community"
     ],
     date: "May 2025 - Aug 2025",
   },
@@ -15,10 +17,9 @@ const work_exp = [
     thumbnail: "images/icons/jobs/interac.png",
     role: "Software Developer Intern - Backend",
     bullets: [
-      "Developed and maintained backend services for Canada’s largest real-time money transfer network using Java Spring Boot, ensuring high performance and scalability.",
-      "Utilized PostgreSQL to design, optimize, and manage relational databases, ensuring data integrity and efficient querying for mission-critical applications.",
-      "Deployed and managed containerized applications using Kubernetes, streamlining deployment pipelines",
-      "Implemented messaging solutions using Apache ActiveMQ to enable communication and improve system decoupling for scalable, distributed services"
+      "Developed and maintained backend services for Canada’s largest real-time money transfer network using Java Spring Boot and Kubernetes, ensuring high performance and scalability.",
+      "Engineered a Redis based distributed locking mechanism to synchronize notification dispatch across replicas, ensuring exactly-once delivery and preventing state inconsistency in downstream systems",
+      "Implemented messaging solutions using Apache ActiveMQ to enable communication and improve system decoupling for scalable, distributed services",
     ],
     date: "Jan 2025 - Apr 2025",
   },
@@ -93,11 +94,10 @@ const Experience = () => {
               return (
                 <figure
                   key={index}
-                  className={`min-h-20 flex gap-4 items-center text-lg md:text-xl border-l-4 border-[#1F1E1E] cursor-pointer px-4 pr-24 py-4 text-nowrap ${
-                    index === experience
-                      ? "bg-[#1F1E1E] border-white text-white"
-                      : ""
-                  }`}
+                  className={`min-h-20 flex gap-4 items-center text-lg md:text-xl border-l-4 border-[#1F1E1E] cursor-pointer px-4 pr-24 py-4 text-nowrap ${index === experience
+                    ? "bg-[#1F1E1E] border-white text-white"
+                    : ""
+                    }`}
                   onClick={() => selectExperience(index)}
                 >
                   <img
