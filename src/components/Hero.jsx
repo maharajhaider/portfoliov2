@@ -28,10 +28,9 @@ const Hero = () => {
           <TypeWriter
             options={{
               strings: [
-                "I am a 4th year CS 👨‍🎓 at UBC",
+                "New Grad from UBC CS 🎓",
                 "Active in 🚴‍♀️🏀",
-                "Currently interested in cloud ☁️",
-                "SWE Intern at Interac Corp",
+                "Currently interested in Agentic AI 🤖",
               ],
               autoStart: true,
               loop: true,
